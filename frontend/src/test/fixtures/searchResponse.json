@@ -1,0 +1,548 @@
+{
+  "source": "Bangalore",
+  "destination": "Mumbai",
+  "journey_date": "2026-08-09",
+  "total_results": 5,
+  "buses": [
+    {
+      "trip_id": "TRP-128475",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "2+1 NON AC Seater",
+      "is_ac": true,
+      "seat_type": "sleeper",
+      "departure_at": "2026-08-09T16:00:00",
+      "arrival_at": "2026-08-10T11:00:00",
+      "duration_minutes": 1140,
+      "fare": 2426,
+      "currency": "INR",
+      "seats_available": 16,
+      "amenities": [
+        "Reading Light",
+        "AC"
+      ],
+      "boarding_points": [
+        {
+          "name": "Bannerghatta Road",
+          "time": "3:00 PM",
+          "contact": "08022377777",
+          "distance_km": 12.11,
+          "is_nearest": true
+        },
+        {
+          "name": "Rcr Road",
+          "time": "4:00 PM",
+          "contact": "9876543210",
+          "distance_km": 12.11,
+          "is_nearest": false
+        },
+        {
+          "name": "Hulimavu, Bangalore",
+          "time": "4:05 PM",
+          "contact": "08022377777",
+          "distance_km": 13.95,
+          "is_nearest": false
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Sion Circle - Bank Of India",
+          "time": "11:00 AM",
+          "contact": null,
+          "distance_km": 15.35,
+          "is_nearest": true
+        }
+      ],
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      },
+      "data_warnings": [
+        {
+          "code": "BUS_TYPE_AC_CONFLICT",
+          "message": "Bus type label '2+1 NON AC Seater' disagrees with the AC flag; shown as AC."
+        },
+        {
+          "code": "BUS_TYPE_SEAT_CONFLICT",
+          "message": "Bus type label '2+1 NON AC Seater' says seater, but the seat type field says sleeper; shown as sleeper."
+        }
+      ]
+    },
+    {
+      "trip_id": "TRP-120807",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "NON A/C SLEEPER",
+      "is_ac": false,
+      "seat_type": "sleeper",
+      "departure_at": "2026-08-09T16:04:00",
+      "arrival_at": "2026-08-10T10:54:00",
+      "duration_minutes": 1130,
+      "fare": 589,
+      "currency": "INR",
+      "seats_available": 19,
+      "amenities": [
+        "Non-AC",
+        "Blanket",
+        "Reading Light",
+        "Pillow"
+      ],
+      "boarding_points": [
+        {
+          "name": "Bangalore",
+          "time": "4:04 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Race Cource Road Bangolre.",
+          "time": "4:04 PM",
+          "contact": "8155824531",
+          "distance_km": 3.33,
+          "is_nearest": true
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Mumbai",
+          "time": "10:54 AM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": true
+        }
+      ],
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      },
+      "data_warnings": [
+        {
+          "code": "ROUTE_NAME_MISMATCH",
+          "message": "Provider route name 'Bangalore To Jaisalmer' doesn't match Bangalore → Mumbai; matched using the city fields."
+        }
+      ]
+    },
+    {
+      "trip_id": "TRP-110955",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "Bharat Benz A/C Sleeper",
+      "is_ac": true,
+      "seat_type": "sleeper",
+      "departure_at": "2026-08-09T19:30:00",
+      "arrival_at": "2026-08-10T13:30:00",
+      "duration_minutes": 1080,
+      "fare": 3592,
+      "currency": "INR",
+      "seats_available": 10,
+      "amenities": [
+        "Blanket",
+        "Reading Light",
+        "Pillow",
+        "AC"
+      ],
+      "boarding_points": [
+        {
+          "name": "Kalasipalyam Office- Opp. Maharaja Stachu",
+          "time": "7:15 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Kalasipalyam - Near Tipu Palace Opp.-Bangalore Medical Collage",
+          "time": "7:30 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "City Railway Station - Near shantala Silks towards Upperpete Police Station",
+          "time": "7:45 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Majestic - Tank Bund Road, Near Hotel Amar",
+          "time": "7:50 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Anand Rao Circle Near Tourist Hotel",
+          "time": "8:00 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Yashwanthpur",
+          "time": "8:30 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Goraguntepalya Near K L E Dental Hospital Gate.",
+          "time": "8:35 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Jalahalli Cross",
+          "time": "8:40 PM",
+          "contact": null,
+          "distance_km": 6.4,
+          "is_nearest": false
+        },
+        {
+          "name": "8th Mile - Dasarahalli",
+          "time": "8:45 PM",
+          "contact": null,
+          "distance_km": 7.74,
+          "is_nearest": false
+        },
+        {
+          "name": "Parle Toll - Near Parle Toll",
+          "time": "8:50 PM",
+          "contact": null,
+          "distance_km": 2.14,
+          "is_nearest": true
+        },
+        {
+          "name": "Madanayakanahalli",
+          "time": "8:55 PM",
+          "contact": null,
+          "distance_km": 12.28,
+          "is_nearest": false
+        },
+        {
+          "name": "Nelmangala Toll - D Mart",
+          "time": "9:00 PM",
+          "contact": null,
+          "distance_km": 5.93,
+          "is_nearest": false
+        },
+        {
+          "name": "Dabaspet",
+          "time": "9:10 PM",
+          "contact": null,
+          "distance_km": 42.02,
+          "is_nearest": false
+        },
+        {
+          "name": "Tumkur Batwadi Bye_Pass.",
+          "time": "9:20 PM",
+          "contact": null,
+          "distance_km": 2.86,
+          "is_nearest": false
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Kamote - Below Flyover Near K.L.E Collage Bus Stop (Kalamboli)",
+          "time": "1:30 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Kharghar - Three Star Hotel Near Below Kharghar Bridge",
+          "time": "1:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Nerul Lp Near LP Bus Stop",
+          "time": "1:45 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Sanpada - Bridge Ending Near Bridge Ending Bus Stop",
+          "time": "1:48 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Vashi- Vashi Plaza, Sector No-17 Below Bridge After Signal",
+          "time": "1:50 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Chembur - Dimand Gardan, Near Yogi Restaurant",
+          "time": "2:00 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Sion Circle - Bank Of India",
+          "time": "2:20 PM",
+          "contact": null,
+          "distance_km": 15.35,
+          "is_nearest": false
+        },
+        {
+          "name": "Bandra (East) - Kala Nagar ,Near Kala Nagar Bus Stop",
+          "time": "2:25 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Santracruz (E)- Near Relieance Eneargy",
+          "time": "2:30 PM",
+          "contact": null,
+          "distance_km": 13.83,
+          "is_nearest": false
+        },
+        {
+          "name": "Andheri (East) - Bridge END Shivaji Statue Towards Vileparle",
+          "time": "2:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Goregoan (East) - Near Western Express Highway",
+          "time": "2:45 PM",
+          "contact": null,
+          "distance_km": 1.56,
+          "is_nearest": false
+        },
+        {
+          "name": "Malad (East) - Pathan Wadi",
+          "time": "2:50 PM",
+          "contact": null,
+          "distance_km": 1.31,
+          "is_nearest": true
+        },
+        {
+          "name": "Borivali (East) - National Park Bridge End Axis Bank",
+          "time": "2:55 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Mira Road East- Sheetal Nagar",
+          "time": "3:00 PM",
+          "contact": null,
+          "distance_km": 13.33,
+          "is_nearest": false
+        }
+      ],
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      },
+      "data_warnings": []
+    },
+    {
+      "trip_id": "TRP-128852",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "2 X 1 NON A/C SLEEPER COACH",
+      "is_ac": false,
+      "seat_type": "sleeper",
+      "departure_at": "2026-08-09T21:15:00",
+      "arrival_at": "2026-08-10T16:25:00",
+      "duration_minutes": 1150,
+      "fare": 7392,
+      "currency": "INR",
+      "seats_available": 13,
+      "amenities": [
+        "Non-AC",
+        "Blanket",
+        "Reading Light",
+        "Pillow"
+      ],
+      "boarding_points": [
+        {
+          "name": "Jakhar Travels,Nr Anand Rao Circle,Opp.Ganesh Temple,G22 Brigade Plaza",
+          "time": "9:15 PM",
+          "contact": "8105149909, 8105147606",
+          "distance_km": 4.49,
+          "is_nearest": true
+        },
+        {
+          "name": "Yeshwantpur,Govardhan Theater,Near Kokan Express Restaurant",
+          "time": "9:50 PM",
+          "contact": "8105149909, 8105147606",
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Gorguntepalya Flyover 1000Km",
+          "time": "10:00 PM",
+          "contact": "8105149909, 8105147606",
+          "distance_km": 6.73,
+          "is_nearest": false
+        },
+        {
+          "name": "Jalahalli Toll Palza-Parle G Factory",
+          "time": "10:15 PM",
+          "contact": "8105149909, 8105147606",
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Nelamangala Toll Plaza",
+          "time": "10:40 PM",
+          "contact": "8769101570, 9460771937, 99835038078769875570",
+          "distance_km": 20.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Bhawani Hotel,Near dobbaspet",
+          "time": "11:15 PM",
+          "contact": "8105149909, 8105147606",
+          "distance_km": 6.45,
+          "is_nearest": false
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Panvel-Kalamboli Junction,Opp.Mcdonalds",
+          "time": "2:15 PM",
+          "contact": null,
+          "distance_km": 32.08,
+          "is_nearest": false
+        },
+        {
+          "name": "Kharghar,Near Three Monkey Point",
+          "time": "2:25 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": true
+        },
+        {
+          "name": "Nerul",
+          "time": "2:30 PM",
+          "contact": null,
+          "distance_km": 24.21,
+          "is_nearest": false
+        },
+        {
+          "name": "Vashi old Tol Naka,Before Flayover,Highway,Opp.Mojos",
+          "time": "2:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "Under the Juinagar Railway Station Public Bridge",
+          "time": "2:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": false
+        },
+        {
+          "name": "TURBA NAKA RAILWAY STATION",
+          "time": "2:40 PM",
+          "contact": null,
+          "distance_km": 26.86,
+          "is_nearest": false
+        },
+        {
+          "name": "Ghansoli",
+          "time": "2:45 PM",
+          "contact": null,
+          "distance_km": 18.18,
+          "is_nearest": false
+        },
+        {
+          "name": "Airoli",
+          "time": "2:50 PM",
+          "contact": null,
+          "distance_km": 16.12,
+          "is_nearest": false
+        }
+      ],
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      },
+      "data_warnings": [
+        {
+          "code": "ROUTE_NAME_MISMATCH",
+          "message": "Provider route name 'Bangalore To Jodhpur 2 X 1 Volvo 9600 With Washroom' doesn't match Bangalore → Mumbai; matched using the city fields."
+        }
+      ]
+    },
+    {
+      "trip_id": "TRP-130024",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "NON A/C SLEEPER",
+      "is_ac": false,
+      "seat_type": "sleeper",
+      "departure_at": "2026-08-09T23:03:00",
+      "arrival_at": "2026-08-10T17:53:00",
+      "duration_minutes": 1130,
+      "fare": 693,
+      "currency": "INR",
+      "seats_available": 16,
+      "amenities": [
+        "Non-AC",
+        "Blanket",
+        "Reading Light",
+        "Pillow"
+      ],
+      "boarding_points": [
+        {
+          "name": "Bangalore",
+          "time": "11:03 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "is_nearest": false
+        },
+        {
+          "name": "Race Cource Road Bangolre.",
+          "time": "11:03 PM",
+          "contact": "8155824531",
+          "distance_km": 3.33,
+          "is_nearest": true
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Mumbai",
+          "time": "5:53 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "is_nearest": true
+        }
+      ],
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      },
+      "data_warnings": [
+        {
+          "code": "ROUTE_NAME_MISMATCH",
+          "message": "Provider route name 'Bangalore To Jaisalmer' doesn't match Bangalore → Mumbai; matched using the city fields."
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "provider_trip_count": 5,
+    "excluded": {
+      "route_mismatch": 0,
+      "date_mismatch": 0,
+      "unavailable": 0,
+      "invalid": 0
+    }
+  }
+}
